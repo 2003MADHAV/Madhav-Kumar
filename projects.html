@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Details</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .project-card {
+      background: white;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      padding: 1.5rem;
+      transition: transform 0.2s ease;
+      text-align: center;
+    }
+
+    .project-card:hover {
+      transform: scale(1.01);
+    }
+
+    .project-title {
+      font-size: 1.5rem;
+      color: #2c3e50;
+      margin-bottom: 0.5rem;
+    }
+
+    .tech {
+      font-size: 0.95rem;
+      color: #555;
+      margin: 0.3rem 0 1rem 0;
+    }
+
+    .desc {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .link-btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      background-color: #3498db;
+      color: white;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+      margin: 0 auto;
+    }
+
+    .link-btn:hover {
+      background-color: #2980b9;
+    }
+
+    @media (max-width: 600px) {
+      .project-title {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>MY PROJECTS</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="project-card">
+      <div class="project-title">EaseRent: Integrated Admin Web Portal and Mobile Solutions for Rental Property
+        Management</div>
+      <div class="tech">Flutter, Dart, MySQL, Firebase</div>
+      <div class="desc">EaseRent is a unified platform for rental property management, integrating web and mobile
+        solutions. With a user-friendly design, it supports renters, owners, and agents, offering 360° views, virtual
+        tours, and location-based listings. The scalable system manages growth, providing efficient tools for property
+        management and a robust admin panel for users, properties, and settings. Prioritizing security and compliance,
+        EaseRent also supports multiple languages, including RTL, to serve a diverse audience.</div>
+      <a href="https://github.com/2003MADHAV/Capstone-Project" class="link-btn" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-title">Weather App</div>
+      <div class="tech">Kotlin, XML, Java</div>
+      <div class="desc">This mobile application provides users with real-time weather updates, including temperature,
+        humidity, wind speed, and weather conditions for their current location or any searched city. The app uses
+        modern APIs to fetch accurate and up-to-date meteorological data. It features a clean and intuitive user
+        interface built with XML layouts and follows Android design principles for a smooth and responsive user
+        experience.
+
+        Key features include dynamic weather icons, location-based forecasts using GPS, city search with autocomplete,
+        and daily as well as hourly forecasts. The app ensures performance optimization and error handling for poor
+        network conditions, enhancing usability. Ideal for travelers, commuters, and everyday users, this app delivers
+        essential weather information at a glance.</div>
+      <a href="https://github.com/2003MADHAV/Weather_app" class="link-btn" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-title">Plant Species Identification</div>
+      <div class="tech">Deep Learning, Python</div>
+      <div class="desc">This project leverages deep learning techniques to accurately identify plant species based on
+        images of their leaves. The system is trained on a high-quality, well-labeled dataset containing various plant
+        species, with significant attention given to data preprocessing such as resizing, normalization, and
+        augmentation to improve model generalization.
+
+        Using a Convolutional Neural Network (CNN) architecture, the model learns unique features and patterns present
+        in different leaf types to classify species effectively. The application aims to support botanists, farmers, and
+        researchers by providing an automated, efficient tool for plant identification, potentially aiding in
+        biodiversity studies and agriculture. Future enhancements include integration into a mobile application with a
+        user-friendly interface and real-time prediction capabilities.</div>
+      <a href="https://github.com/2003MADHAV/Plant-Species-Identification-from-Leaf-Images" class="link-btn"
+        target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-title">Real-Time Object Detection</div>
+      <div class="tech">Kotlin, Java, AI/ML</div>
+      <div class="desc">This Android application performs real-time object detection and tracking using advanced machine
+        learning models. Built with Kotlin and Java, it utilizes the device’s camera to capture live video feeds and
+        applies pre-trained AI/ML models (such as TensorFlow Lite or ML Kit) to detect and label various objects within
+        the frame in real time.
+
+        The app is optimized for performance and efficiency, making it suitable for mobile environments. It supports
+        multiple object classes, provides bounding boxes and confidence scores for each detection, and can be extended
+        to trigger custom actions based on specific object recognition. This solution is ideal for use cases such as
+        surveillance, assistive technology, and smart automation systems.</div>
+        <a href="https://github.com/2003MADHAV" class="link-btn" target="_blank">View Project</a>
+
+    </div>
+
+    <div class="project-card">
+      <div class="project-title">Predicting IPL 2025 Match Results</div>
+      <div class="tech">Python, ML, Flask, REST API</div>
+      <div class="desc">This project involves developing a predictive model for IPL 2025 match outcomes using historical
+        match data and machine learning algorithms. It analyzes factors like team composition, player statistics, match
+        location, toss results, and past performance to estimate the probable winner of a given match.
+
+        The trained model is deployed using a Flask-based RESTful API, enabling real-time access to predictions through
+        web or mobile interfaces. The system is designed to provide insights for fans, analysts, and fantasy league
+        enthusiasts. It ensures accuracy through rigorous preprocessing, feature engineering, and model tuning using
+        techniques like Random Forest and Gradient Boosting.</div>
+      <a href="https://github.com/2003MADHAV/ipl-match-prediction" class="link-btn" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-title">Emotion Recognition in Text</div>
+      <div class="tech">Python, Keras, TensorFlow</div>
+      <div class="desc">This Natural Language Processing (NLP) project focuses on identifying and classifying human
+        emotions expressed in textual data. It leverages deep learning models built with Keras and TensorFlow to analyze
+        sentence structure, word usage, and contextual semantics.
+
+        The model is trained on multi-language emotion-labeled datasets, enabling it to accurately detect a range of
+        emotional states such as happiness, sadness, anger, fear, and surprise. It takes into account linguistic
+        subtleties and cultural nuances to enhance emotion classification across different languages.
+
+        The system can be integrated into chatbots, social media monitoring tools, or mental health applications to
+        better understand user sentiment and emotional tone in real time.</div>
+      <a href="https://github.com/2003MADHAV/Emotion-Recognition_and-Expression_in_Text" class="link-btn"
+        target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <div class="project-title">Real-Time Collaborative Coding</div>
+      <div class="tech">Node.js, React, Socket.IO, MongoDB, Docker, Monaco Editor</div>
+      <div class="desc">As part of a Community Service Project (CSP), this initiative was designed to support remote
+        learning and collaborative programming for students and developers, especially those in underserved or rural
+        areas with limited access to in-person mentorship and tech infrastructure. The platform allows multiple users to
+        write and edit code together in real-time, simulating a shared IDE experience.
+
+        The web application features live synchronization of code edits using Socket.IO, integrated chat functionality
+        for communication, and a responsive interface powered by React. Monaco Editor ensures a developer-friendly
+        environment with features like syntax highlighting and multi-language support.
+
+        Docker was used for seamless deployment and scalability, and MongoDB stores session and user data securely. This
+        project promotes collaborative learning, remote coding bootcamps, peer-to-peer support, and inclusive digital
+        education, aligning with the goals of knowledge sharing and digital empowerment in the community.</div>
+      <a href="https://github.com/2003MADHAV" class="link-btn" target="_blank">View Project</a>
+    </div>
+  <div class="project-card">
+
+  <div class="project-title">Face Emotion Recognition for Mental Health Awareness</div>
+  <div class="tech">Python, TensorFlow, Keras, Flask, OpenCV</div>
+  <div class="desc">
+    As part of a Community Service Project (CSP), this initiative was developed to support mental health awareness by recognizing human emotions from facial expressions in real-time. This project aims to assist in remote education, therapy sessions, and emotional well-being monitoring—especially beneficial in underserved communities with limited mental health support.
+
+    Using a trained deep learning model (<code>model_weights.h5</code>) built with TensorFlow and Keras, the system can detect and classify emotions such as happiness, sadness, anger, and surprise. A Flask-based web interface allows users to interact with the application easily, while OpenCV handles real-time webcam input and face detection.
+
+    The application runs on a lightweight server stack using Gunicorn and is deployable in educational or wellness-focused platforms. By providing emotional insights through non-verbal cues, this tool enhances virtual communication and promotes emotional intelligence across digital platforms.
+  </div>
+  <a href="https://github.com/2003MADHAV/Face-Emotion-Recognition" class="link-btn" target="_blank">View Project</a>
+</div>
+
+<div class="project-card">
+  <div class="project-title">Calculator App</div>
+  <div class="tech">Kotlin, Jetpack Compose, MVVM, Material Design</div>
+  <div class="desc">
+    A modern and minimalist calculator app built using Kotlin and Jetpack Compose, designed to showcase clean UI design and real-time performance with minimal code. This project emphasizes user-friendliness and elegant interaction through a responsive, intuitive interface.
+
+    <br><br>
+    <strong>Key Features:</strong><br>
+    • Basic Operations: Perform addition, subtraction, multiplication, and division.<br>
+    • Real-Time Calculation: Instantly displays results as users input expressions.<br>
+    • Responsive UI: Adapts seamlessly to various screen sizes and orientations.<br>
+    • Elegant Design: Follows Material Design principles for a clean look.<br>
+    • Error Handling: Validates inputs and displays friendly error messages.<br>
+
+    <br>
+    <strong>Tech Stack:</strong><br>
+    • Kotlin – Core programming language.<br>
+    • Jetpack Compose – Declarative UI toolkit for building modern UIs.<br>
+    • MVVM Architecture – Separation of concerns with ViewModel and LiveData.<br>
+    • Material Design – For consistent UI/UX components.<br>
+  <br><a href="https://github.com/2003MADHAV/Calculator_Android_APP" class="link-btn" target="_blank">View Project</a>
+  
+</div>
+
+</div>
+
+<div class="project-card">
+  <div class="project-title">Personal Portfolio Android App</div>
+  <div class="tech">Java/Kotlin, XML, MVVM, Firebase, Retrofit, Room</div>
+  <div class="desc">
+    The official Android application for <strong>Madhav Kumar's</strong> personal portfolio, designed to present professional skills, projects, certifications, internships, and contact information in an elegant and user-friendly interface. This app serves as a digital resume, optimized for mobile devices to enable seamless navigation through the different sections of the portfolio.
+
+    <br><br>
+    <strong>Key Features:</strong><br>
+    • <strong>About Me:</strong> Personal background and introduction.<br>
+    • <strong>Skills:</strong> Showcases technical and soft skills.<br>
+    • <strong>Certifications & Internships:</strong> Displays professional credentials and experiences.<br>
+    • <strong>Projects:</strong> Lists projects with descriptions and links to GitHub or live demos.<br>
+    • <strong>Contact Form:</strong> Built-in form to easily connect with Madhav.<br>
+    • <strong>Offline Support:</strong> Most content accessible without internet.<br>
+
+    <br>
+    <strong>Tech Stack:</strong><br>
+    • Java/Kotlin – Core app development<br>
+    • XML & Material Design – For building intuitive and modern UIs<br>
+    • MVVM – Ensures clear separation of concerns and maintainable code<br>
+    • Firebase (Optional) – For analytics and contact form data storage<br>
+    • Retrofit – API networking<br>
+    • Glide – Efficient image loading<br>
+    • Room – Local database support<br>
+    
+    <br>
+    This app highlights a blend of responsive design, modular architecture, and optimized user experience, aligning with professional standards for mobile development.
+  </div>
+  <a href="https://github.com/2003MADHAV/Persional_portfolio_Android_App" class="link-btn" target="_blank">View Project</a>
+</div>
+
+<div class="project-card">
+  <div class="project-title">Age Calculator</div>
+  <div class="tech">Kotlin, Jetpack Compose, Material Date Picker</div>
+  <div class="desc">
+    Age Calculator is a simple yet intuitive Android application that enables users to calculate their exact age by selecting their birthdate. Designed with a modern UI using Jetpack Compose, the app provides a smooth and responsive user experience.
+    
+    <br><br>
+    <strong>Key Features:</strong><br>
+    • <strong>Age Calculation:</strong> Instantly calculates user's age in years upon selecting the birthdate.<br>
+    • <strong>Splash Screen:</strong> Displays a custom welcome image and message at app startup.<br>
+    • <strong>User-Friendly Interface:</strong> Clean and minimal design with smooth navigation.<br>
+    • <strong>Edge-to-Edge Layout:</strong> Full-screen UI support for modern Android devices.<br>
+    
+    <br>
+    <strong>Tech Stack:</strong><br>
+    • Kotlin – Core development language<br>
+    • Jetpack Compose – Declarative UI for Android<br>
+    • Material Date Picker – Interactive date selection component<br>
+
+    <br>
+    This project demonstrates the integration of Jetpack Compose with modern Android components to deliver a seamless, clean, and practical utility application.
+  </div>
+  <a href="https://github.com/2003MADHAV/Age-Calculator-andriod-app.git" class="link-btn" target="_blank">View Project</a>
+</div>
+
+<div class="project-card">
+  <div class="project-title">BMI Calculator</div>
+  <div class="tech">Flutter, Dart</div>
+  <div class="desc">
+    BMI Calculator is a Flutter-based mobile application designed to calculate a user's Body Mass Index (BMI) based on their height and weight. The app provides an easy-to-use interface and instant results, making it a handy tool for users who want to track their health and fitness.
+    
+    <br><br>
+    <strong>Key Features:</strong><br>
+    • <strong>Instant Calculation:</strong> Calculates BMI based on user input in real-time.<br>
+    • <strong>Clean UI:</strong> Built using Flutter's modern widgets for a smooth user experience.<br>
+    • <strong>Cross-Platform:</strong> Runs seamlessly on both Android and iOS.<br>
+    • <strong>Interactive Design:</strong> Allows easy input and provides responsive output.<br>
+
+    <br>
+    <strong>Tech Stack:</strong><br>
+    • Flutter – Framework for cross-platform app development<br>
+    • Dart – Programming language for Flutter apps<br>
+
+    <br>
+    This project serves as an introduction to Flutter development and demonstrates how to build responsive and functional mobile UIs efficiently.
+  </div>
+  <a href="https://github.com/2003MADHAV/BMI_Calculator" class="link-btn" target="_blank">View Project</a>
+</div>
+
+<div class="project-card">
+  <div class="project-title">Drowsiness Detection Using OpenCV</div>
+  <div class="tech">Python, OpenCV, dlib, NumPy</div>
+  <div class="desc">
+    As part of an initiative focused on road safety and AI-based monitoring, this project implements a real-time drowsiness detection system using computer vision techniques. The goal is to help prevent accidents caused by driver fatigue, especially in long-haul and night-time driving scenarios.
+    
+    <br><br>
+    The system captures live video from a webcam, uses facial landmark detection to monitor eye aspect ratios and head positioning, and triggers an alert when signs of drowsiness are detected. This application can be extended to support commercial vehicles, transport safety, or industrial fatigue monitoring.
+
+    <br><br>
+    <strong>Key Features:</strong><br>
+    • Real-time detection of drowsiness through eye blink and gaze tracking<br>
+    • Uses dlib’s facial landmark predictor for accurate detection<br>
+    • Instant alert/notification system when drowsiness is detected<br>
+    • Lightweight and easily deployable on standard hardware<br>
+
+    <br>
+    <strong>Tech Stack:</strong><br>
+    • Python – Core language<br>
+    • OpenCV – Real-time computer vision<br>
+    • dlib – Facial landmark detection<br>
+    • NumPy – Array computation<br>
+    <br>
+    This project promotes awareness and technical solutions to reduce accidents due to fatigue, making travel safer through intelligent automation.
+  </div>
+  <a href="https://github.com/2003MADHAV/DrowsinessDetectionUsingOpenCV" class="link-btn" target="_blank">View Project</a>
+</div>
+
+<div class="project-card">
+  <div class="project-title">Traffic Signs Recognition</div>
+  <div class="tech">Python, CNN, Keras, NumPy, OpenCV</div>
+  <div class="desc">
+    As part of a Community Service Project (CSP) focused on intelligent transportation systems and public road safety, this project implements a deep learning model to recognize and classify traffic signs with high accuracy.
+    
+    <br><br>
+    The system was trained using Convolutional Neural Networks (CNNs) in Keras and achieved an accuracy of 98% on the German Traffic Sign Recognition Benchmark (GTSRB) dataset. This level of precision contributes significantly to enhancing autonomous driving technologies and intelligent driver-assistance systems (ADAS).
+
+    <br><br>
+    <strong>Key Features:</strong><br>
+    • Real-time traffic sign detection and classification<br>
+    • Trained on over 40 types of traffic signs<br>
+    • Utilizes image preprocessing, normalization, and data augmentation<br>
+    • Model built using CNN architecture with softmax output layer<br>
+
+    <br>
+    <strong>Tech Stack:</strong><br>
+    • Python – Programming Language<br>
+    • Keras – Deep Learning Framework<br>
+    • TensorFlow – Backend for model training<br>
+    • OpenCV – Image processing<br>
+    • NumPy – Data manipulation<br>
+
+    <br>
+    This project encourages safer transportation by enabling smart vehicles and automated systems to correctly interpret road signs in real time, aiding both machine and human drivers.
+
+  </div>
+  <a href="https://github.com/2003MADHAV/Traffic_SignsRecognition" class="link-btn" target="_blank">View Project</a>
+</div>
+
+<div class="project-card">
+  <div class="project-title">Advanced ATM Loan System</div>
+  <div class="tech">Java, OOPs, Swing, JDBC</div>
+  <div class="desc">
+    This project showcases a desktop-based <strong>Advanced ATM Loan System</strong> built using Java to automate and streamline the loan management process via an intuitive interface integrated into an ATM-like environment.
+    
+    <br><br>
+    Designed to simulate real-world banking scenarios, the system allows users to apply for loans, check eligibility, and track repayment history. It aims to enhance banking services by providing efficient, user-friendly loan application and approval functionality directly from an ATM system.
+
+    <br><br>
+    <strong>Key Features:</strong><br>
+    • User-friendly interface developed using Java Swing<br>
+    • Loan application, approval, and tracking features<br>
+    • Integration with backend database via JDBC<br>
+    • Secure user authentication<br>
+    • Emphasis on object-oriented principles for scalability<br>
+
+    <br>
+    <strong>Tech Stack:</strong><br>
+    • Java – Core programming language<br>
+    • Java Swing – UI development<br>
+    • JDBC – Database connectivity<br>
+    • MySQL – Backend database<br>
+
+    <br>
+    This project provides a real-world banking solution model, contributing to digital financial services and enhancing accessibility, especially in underserved areas.
+
+  </div>
+  <a href="https://github.com/2003MADHAV/Advance-ATM-lone_systems--" class="link-btn" target="_blank">View Project</a>
+</div>
+
+<footer style="background-color: #111; color: #fff; padding: 40px 20px; text-align: center;">
+  <div style="max-width: 1000px; margin: auto;">
+    <h2 style="font-size: 24px; margin-bottom: 10px;">Connect with Me</h2>
+    <p style="margin-bottom: 20px;">Have a project or question? Feel free to reach out!</p>
+    <div style="margin-bottom: 20px;">
+      <a href="mailto:madhakumar332003@gmail.com" style="color: #00bcd4; text-decoration: none; margin: 0 10px;">Email</a>
+      <a href="https://github.com/2003MADHAV" target="_blank" style="color: #00bcd4; text-decoration: none; margin: 0 10px;">GitHub</a>
+      <a href="https://www.linkedin.com/in/madhav-kumar-5859a2228/" target="_blank" style="color: #00bcd4; text-decoration: none; margin: 0 10px;">LinkedIn</a>
+    </div>
+    <p style="font-size: 14px; color: #bbb;">
+      &copy; 2025 <a href="https://2003madhav.github.io/Madhav-Portfolio/" target="_blank" style="color: #00bcd4; text-decoration: none;">Madhav Kumar</a>. All rights reserved.
+    </p>
+  </div>
+</footer>
+</body>
+
+</html>
